@@ -13,3 +13,7 @@ CLOUD_NAME = Cloudinary Cloud name for image hosting
 CLOUD_API_KEY = Cloudinary API key
 
 CLOUD_API_SECRET = Cloudinary API secret
+
+`npm install` in both `/server` and `/client`
+
+Run `npm start` in both `/server` and `/client` to start the app.
