@@ -14,6 +14,6 @@ CLOUD_API_KEY = Cloudinary API key
 
 CLOUD_API_SECRET = Cloudinary API secret
 
-`npm install` in both `/server` and `/client`
+`npm install` in both `root` and `/client`
 
-Run `npm start` in both `/server` and `/client` to start the app.
+Run `npm run dev` in `root` to start the app.
