@@ -1,0 +1,58 @@
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 150%;
+}
+.detail img{
+    max-width: 1200px; /* Change this if you want*/
+    width: 100%;
+    margin: 20px;
+    height: 700px; /* And this */
+    object-fit: contain;
+    display: block;
+}
+.box-detail{
+    /* max-width: 500px; */
+    width: 100%;
+    margin: 5px 20px;
+}
+.box-detail .row{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-detail h2{
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+}
+.box-detail pre, p{
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: 0.8;
+    text-overflow: ellipsis;
+}
+
+.box-detail pre {
+    margin-top: 50px;
+}
+.box-detail .cart{
+    background: #333;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: sticky;
+    bottom: 0;
+}
+
+span {
+    color: sienna;
+}

@@ -1,0 +1,71 @@
+.cart{
+    
+    position: relative;
+    border: 1px solid #ccc;
+    transform: scaleY(0.98);
+}
+.amount span{
+    color: darkolivegreen;
+    padding: 0 20px;
+}
+.amount button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777;
+}
+.delete{
+    position: absolute;
+    top:0;
+    right: 5px;
+    color: crimson;
+    font-weight: 900;
+    cursor: pointer;
+}
+.total{
+    background-color: rgb(49, 64, 68);
+    position: sticky;
+    bottom: 0;
+    box-sizing: border-box;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.total h3{
+    color: rgb(255, 255, 255);
+}
+
+.box-detail-cart{
+    max-width: 500px;
+    width: 100%;
+    margin: 5px 20px;
+    text-overflow: ellipsis;
+}
+
+.detail-cart{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.detail-cart h2 {
+    text-transform: uppercase;
+}
+
+.detail-cart img{
+    max-width: 450px; /* Change this if you want*/
+    width: 100%;
+    margin: 20px;
+    height: 350px; /* And this */
+    object-fit: cover;
+    display: block;
+}
+.empty {
+    text-align: center;
+    font-size: 3rem;
+}
