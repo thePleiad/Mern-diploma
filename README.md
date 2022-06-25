@@ -1,5 +1,7 @@
 # Mern-diploma
 
+## Demo: https://mern-d-ecommerce.herokuapp.com/
+
 ## For this app to run as intended you'll need too create .env file in root directory with following fields:
 
 MONGODB_URL - URI for your MongoDB database. You can create one and get the URI using MongoDB Atlas
