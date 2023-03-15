@@ -1,6 +1,6 @@
 # Mern-diploma
 
-## Demo: https://mern-d-ecommerce.herokuapp.com/
+## Demo: https://mern-d-ecommerce.herokuapp.com/ (Down)
 
 ## For this app to run as intended you'll need too create .env file in root directory with following fields:
 
